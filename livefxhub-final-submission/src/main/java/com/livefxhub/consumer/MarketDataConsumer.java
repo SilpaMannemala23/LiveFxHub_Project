@@ -20,7 +20,7 @@ public class MarketDataConsumer {
     private final PricingEngine pricingEngine;
     private final ObjectMapper mapper = new ObjectMapper();
 
-    @PostConstruct
+    /*@PostConstruct
     public void connect() {
 
         ReactorNettyWebSocketClient client =
@@ -35,7 +35,7 @@ public class MarketDataConsumer {
         ).retryWhen(
                 Retry.backoff(10, Duration.ofSeconds(2))
         ).subscribe();
-    }
+    }*/
 
     private void handleIncoming(String json) {
 
