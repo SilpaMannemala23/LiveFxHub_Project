@@ -43,7 +43,7 @@ docker-compose up
 ## WebSocket Endpoint
 
 ```text
-ws://localhost:8080/ws/prices
+ws://localhost:9090/ws/prices
 ```
 
 ## Design Decisions
